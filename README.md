@@ -4,7 +4,7 @@
 Instalar **Docker:**
 
 ```shell
-sudo apt update
+sudo apt-get update
 sudo apt install docker.io
 docker --version
 ```
@@ -24,7 +24,7 @@ Instalar e configurar o **Docker Compose**
  
 * Instalar pacotes de dependência:
 ```shell
-sudo apt-get install python3-pip python3-dev python3-dev libffi-dev libssl-dev gcc libc-dev rustc cango make
+sudo apt-get install python3-pip python3-dev python3-dev libffi-dev libssl-dev gcc libc6-dev rustc make
 
 ```
 **Docker Compose:**
